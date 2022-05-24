@@ -7,7 +7,7 @@
 .devcontainer/
 
 # Helm resources
-charts/
+charts/*/charts/
 
 # Other rsources
 .env
