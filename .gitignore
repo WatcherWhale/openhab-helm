@@ -8,6 +8,7 @@
 
 # Helm resources
 charts/*/charts/
+charts/*/Chart.lock
 
 # Other rsources
 .env
