@@ -5,8 +5,8 @@ name: openhab
 description: A helm chart for deploying openhab.
 
 type: application
-version: 1.0.0
-appVersion: "3.3.0"
+version: 1.0.1
+appVersion: "3.4.1"
 
 home: https://github.com/WatcherWhale/openhab-helm
 icon: https://www.openhab.org/og-image.png

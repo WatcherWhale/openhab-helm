@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: openhab/openhab
   # -- image tag
-  tag: 3.3.0-alpine
+  tag: 3.4.1-alpine
   # -- image pull policy
   pullPolicy: IfNotPresent
 
@@ -31,6 +31,10 @@ service:
     ports:
       http:
         port: 8080
+      languageserver:
+        enabled: false
+        protcol: TCP
+        port: 5007
 
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.

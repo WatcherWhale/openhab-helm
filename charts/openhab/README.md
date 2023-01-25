@@ -1,6 +1,6 @@
 # openHAB - Helm Chart
 
-![Version: 0.1.0](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 3.2.0](https://img.shields.io/badge/AppVersion-3.2.0-informational?style=flat-square)
+![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 3.4.0](https://img.shields.io/badge/AppVersion-3.4.0-informational?style=flat-square)
 
 A helm chart for deploying openhab.
 
@@ -22,7 +22,7 @@ A helm chart for deploying openhab.
 | env.USER_ID | int | `9001` | Set the correct user id |
 | image.pullPolicy | string | `"IfNotPresent"` | image pull policy |
 | image.repository | string | `"openhab/openhab"` | image repository |
-| image.tag | string | `"3.2.0-alpine"` | image tag |
+| image.tag | string | `"3.4.0-alpine"` | image tag |
 | ingress.main | object | See values.yaml | Enable and configure ingress settings for the chart under this key. |
 | persistence | object | See values.yaml | Configure persistence settings for the chart under this key. |
 | probes | object | See values.yaml | Configures the probes for the main Pod. |
