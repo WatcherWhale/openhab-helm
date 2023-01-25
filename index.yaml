@@ -2,6 +2,31 @@ apiVersion: v1
 entries:
   openhab:
   - apiVersion: v2
+    appVersion: 3.4.1
+    created: "2023-01-25T12:37:01.043202932Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.4.2
+    description: A helm chart for deploying openhab.
+    digest: 95673acc7f1fe9b5bd8a91f88bb4333107b77e594b9c43a737807f19f7ca1f52
+    home: https://github.com/WatcherWhale/openhab-helm
+    icon: https://www.openhab.org/og-image.png
+    keywords:
+    - openhab
+    - smarthome
+    maintainers:
+    - name: Mathias Maes
+      url: https://github.com/WatcherWhale
+    name: openhab
+    sources:
+    - https://github.com/openhab
+    - https://github.com/WatcherWhale/openhab-helm
+    type: application
+    urls:
+    - https://github.com/WatcherWhale/openhab-helm/releases/download/openhab-1.0.1/openhab-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 3.3.0
     created: "2022-07-01T17:02:27.651561305Z"
     dependencies:
@@ -76,4 +101,4 @@ entries:
     urls:
     - https://github.com/WatcherWhale/openhab-helm/releases/download/openhab-0.1.0/openhab-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-01T17:02:27.651603006Z"
+generated: "2023-01-25T12:37:01.04322023Z"
